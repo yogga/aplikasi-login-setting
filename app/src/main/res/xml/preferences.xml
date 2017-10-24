@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="update_on"
+        android:title="Update_On"
+        android:summary="Jika diaktifkan aplikasi akan otomatis mengunduh update"/>
+    <EditTextPreference
+        android:key="yourname"
+        android:title="Your Name"
+        android:summary="Isikan nama yang akan tampil di dashboard"/>
+    <ListPreference
+        android:key="favourite"
+        android:title="Favourite Category"
+        android:summary="Pilih kategori yang tampil di halaman muka"
+        android:defaultValue="1"
+        android:entries="@array/listfav"
+        android:entryValues="@array/valuefav"/>
+</PreferenceScreen>
